@@ -1,0 +1,8 @@
+name: test_get_posts
+method: get
+endpoint: /posts
+expected:
+  status_code: 200
+  response:
+    - id: 1
+      title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit

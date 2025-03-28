@@ -1,0 +1,12 @@
+name: test_create_post
+method: post
+endpoint: /posts
+request:
+  json:
+    title: foo
+    body: bar
+    userId: 1
+expected:
+  status_code: 201
+  response:
+    title: foo

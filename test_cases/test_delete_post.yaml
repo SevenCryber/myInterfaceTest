@@ -1,0 +1,5 @@
+name: test_delete_post
+method: delete
+endpoint: /posts/1
+expected:
+  status_code: 200

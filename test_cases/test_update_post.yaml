@@ -1,0 +1,10 @@
+name: test_update_post
+method: put
+endpoint: /posts/1
+request:
+  json:
+    title: updated title
+expected:
+  status_code: 200
+  response:
+    title: updated title
